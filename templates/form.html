@@ -1,0 +1,76 @@
+<html>
+<head>
+    <body>
+    <h1>This is a form page</h1>
+     <form action="/submit" method="post">
+         <input type="number" name="age" placeholder="Enter your age" required="required"> <br>
+         <label for="job">Select your job</label>
+         <select id="job" name="job"  size="11" >
+             <option value=0> admin </option>
+             <option value=1> blue-collar</option>
+             <option value=2> entrepreneur</option>
+             <option value=3>housemaid</option>
+             <option value=4> management</option>
+             <option value=5> retired</option>
+             <option value=6> self-employed</option>
+             <option value=7> services</option>
+             <option value=8> student</option>
+             <option value=9> technician</option>
+             <option value=10> unemployed</option>
+         </select><br>
+         <label for="marital">Select your marital status </label>
+         <select id="marital" name="marital" size="3" multiple>
+            <option value=0> divorced</option>
+            <option value=1> married</option>
+            <option value=2> single</option>
+        </select><br>
+        <label for="education">Select your education </label>
+        <select id="education" name="education" size="3" multiple>
+            <option value=0> primary</option>
+            <option value=1> secondary</option>
+            <option value=2> tertiary</option>
+        </select><br>
+        <label for="default">Have you ever defaulted payment </label>
+         <select id="default" name="default" size="2" multiple>
+            <option value=0> No</option>
+            <option value=1> Yes</option>
+        </select><br>
+        <label for="balance">Balance in your account</label>
+        <input type="number" name="balance" placeholder="balance" required="required"><br>
+        <label for="housing">Do you have housing loan</label>
+        <select id="housing" name="housing" size="2" multiple>
+            <option value=0> No</option>
+            <option value=1> Yes</option>
+        </select><br>
+        <label for="loan">Do you have loan</label>
+        <select id="loan" name="loan" size="2" multiple>
+            <option value=0> No</option>
+            <option value=1> Yes</option>
+        </select><br>
+        <input type="number" name="day" placeholder="date of month" required="required"><br>
+        <label for="month">Select month</label>
+        <select id="month" name="month"  size="11" >
+            <option value=4> jan</option>
+            <option value=3>feb</option>
+            <option value=7> mar</option>
+            <option value=0> apr </option>
+            <option value=8> may</option>
+            <option value=6> jun</option>
+            <option value=5> jul</option>
+            <option value=1> aug</option>
+            <option value=11> sep</option>
+            <option value=10> oct</option>
+            <option value=9> nov</option>
+            <option value=2> dec</option>
+        </select><br>
+        <input type="number" name="duration" placeholder="duration in seconds" required="required"><br>
+        <input type="number" name="campaign" placeholder="campaign" required="required"><br>
+        <input type="number" name="pdays" placeholder="pdays" required="required"><br>
+        <input type="number" name="previous" placeholder="previous" required="required"><br>
+
+        <button type="submit"> Submit </button>
+     </form>
+
+    </body>
+</head>
+</html>
